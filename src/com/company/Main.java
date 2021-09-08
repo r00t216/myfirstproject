@@ -12,8 +12,8 @@ public class Main {
         Customer customer=new Customer();
         customer.setId(1);
         customer.setNationalIdentity("12345678910");
-        customer.setFullName("İbrahim Usta");
-        customer.setBirthdayDate("05.05.1999");
+        customer.setFullName("Cemilcaparli");
+        customer.setBirthdayDate("05.10.1999");
 
 
         CustomerManager customerManager=new CustomerManager(new Authorize());
